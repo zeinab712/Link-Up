@@ -67,7 +67,7 @@ function Header({ btnText }: HeaderProps) {
                     src={user.profileImage}
                     alt={user.name}
                     className="w-8 h-8 rounded-full object-cover"
-                    onError={() => setImageError(true)} // أول ما الصورة تقع → نغير الـ state
+                    onError={() => setImageError(true)} 
                   />
                 ) : (
                   <div className="w-8 h-8 bg-gray-500 rounded-full flex items-center justify-center">
